@@ -2,15 +2,48 @@ package com.example.zss7670.diceroller;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+
+import java.lang.reflect.Array;
 
 public class DiceActivity extends AppCompatActivity {
+    private RecyclerView mRecyclerView;
+    private RecyclerView.Adapter mAdapter;
+    private RecyclerView.LayoutManager mLayoutManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dice);
+
+        Spinner numberSpinner = (Spinner) findViewById(R.id.dieNumberSpinner);
+        ArrayAdapter<CharSequence> numberAdapter =
+                ArrayAdapter.createFromResource(this,
+                        R.array.die_number_array,
+                        android.R.layout.simple_spinner_dropdown_item);
+        numberAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        numberSpinner.setAdapter(numberAdapter);
+
+        Spinner sideSpinner = (Spinner) findViewById(R.id.dieSideSpinner);
+        ArrayAdapter<CharSequence> sideAdapter =
+                ArrayAdapter.createFromResource(this,
+                        R.array.die_sides_array,
+                        android.R.layout.simple_spinner_dropdown_item);
+        sideAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        sideSpinner.setAdapter(sideAdapter);
+
+        mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
+        mRecyclerView.setHasFixedSize(true);
+        mLayoutManager = new LinearLayoutManager(this);
+        mRecyclerView.setLayoutManager(mLayoutManager);
+
+        mAdapter = new DiceAdapter(data);
+        mRecyclerView.setAdapter(mAdapter);
     }
 
     @Override

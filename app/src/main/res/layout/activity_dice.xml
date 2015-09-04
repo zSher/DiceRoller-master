@@ -1,11 +1,62 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:paddingRight="0dp"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".DiceActivity">
+    android:paddingBottom="0dp" tools:context=".DiceActivity">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        style="@style/bottomBar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rollTxt"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/rollTxt"
+            android:textSize="30dp"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dieNumberSpinner"
+            android:layout_toRightOf="@id/rollTxt"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dTxt"
+            android:id="@+id/dTxt"
+            android:textSize="30dp"
+            android:layout_toRightOf="@id/dieNumberSpinner"
+            android:layout_centerVertical="true"
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dieSideSpinner"
+            android:layout_toRightOf="@id/dTxt"
+            android:layout_centerVertical="true"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rollBtnText"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
 
 </RelativeLayout>
