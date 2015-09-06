@@ -28,7 +28,9 @@
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:id="@+id/rollTxt"
-            android:textSize="30dp"/>
+            android:textSize="30sp"
+            android:layout_marginRight="20dp"/>
+
         <Spinner
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -36,15 +38,19 @@
             android:layout_toRightOf="@id/rollTxt"
             android:layout_centerVertical="true"
             />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/dTxt"
             android:id="@+id/dTxt"
-            android:textSize="30dp"
-            android:layout_toRightOf="@id/dieNumberSpinner"
+            android:textSize="30sp"
             android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/dieNumberSpinner"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
             />
+
         <Spinner
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

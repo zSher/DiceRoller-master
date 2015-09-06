@@ -1,7 +1,9 @@
 package com.example.zss7670.diceroller;
 
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
@@ -16,12 +18,16 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import jp.wasabeef.recyclerview.animators.ScaleInAnimator;
+import jp.wasabeef.recyclerview.animators.SlideInDownAnimator;
+
 public class DiceActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private DiceAdapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
     private Spinner mNumberSpinner;
     private Spinner mSideSpinner;
+    private MediaPlayer mMPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,18 +58,24 @@ public class DiceActivity extends AppCompatActivity {
         ArrayList<DiceThrow> dice = new ArrayList<>();
 
         mAdapter = new DiceAdapter(dice, getApplicationContext());
+        SlideInDownAnimator animator = new SlideInDownAnimator();
+        animator.setAddDuration(200);
+        animator.setRemoveDuration(500);
+        animator.setMoveDuration(200);
+        mRecyclerView.setItemAnimator(animator);
         mRecyclerView.setAdapter(mAdapter);
 
+        mMPlayer = MediaPlayer.create(this, R.raw.roll_snd);
 
         Button rollBtn = (Button) findViewById(R.id.rollBtn);
         rollBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Integer numberOfDie = Integer.parseInt((String)mNumberSpinner.getSelectedItem());
+                Integer numberOfDie = Integer.parseInt((String) mNumberSpinner.getSelectedItem());
                 Integer numberOfSides = Integer.parseInt((String) mSideSpinner.getSelectedItem());
                 Integer[] dice = new Integer[numberOfDie];
                 Random rand = new Random();
-                for (int i = 0; i < dice.length; i++){
+                for (int i = 0; i < dice.length; i++) {
                     dice[i] = rand.nextInt(numberOfSides) + 1;
                 }
 
@@ -72,6 +84,7 @@ public class DiceActivity extends AppCompatActivity {
                 DiceThrow diceThrow = new DiceThrow(subTitleText, dice);
                 mAdapter.addThrow(diceThrow);
                 mRecyclerView.scrollToPosition(0);
+                mMPlayer.start();
             }
         });
     }

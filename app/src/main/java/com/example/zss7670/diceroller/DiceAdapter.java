@@ -57,7 +57,7 @@ public class DiceAdapter extends RecyclerView.Adapter<DiceAdapter.DiceViewHolder
         }
         diceViewHolder.mDiceResultsText.setText(resultText);
 
-        setAnimation(diceViewHolder.itemView, i);
+//        setAnimation(diceViewHolder.itemView, i);
     }
 
     private void setAnimation(View viewToAnimate, int position)
@@ -77,6 +77,6 @@ public class DiceAdapter extends RecyclerView.Adapter<DiceAdapter.DiceViewHolder
 
     public void addThrow(DiceThrow diceThrow){
         mDiceThrows.add(0, diceThrow);
-        notifyDataSetChanged();
+        notifyItemInserted(0);
     }
 }
