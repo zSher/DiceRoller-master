@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">DiceRoller</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Credits</string>
     <string name="rollTxt">Roll: </string>
     <string name="dTxt">d</string>
     <string name="rollBtnText">Roll!</string>
+    <string name="dice_image">Dice Image</string>
 
     <string-array name="die_number_array">
         <item>1</item>
@@ -44,4 +44,5 @@
         <item>20</item>
         <item>100</item>
     </string-array>
+    <string name="title_activity_settings">About | Credits</string>
 </resources>

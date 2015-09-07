@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="occupations">
+    <item>Able Seamen</item>
+    <item>Account Collector</item>
+    <item>Accounting Specialist</item>
+    <item>Adjustment Clerk</item>
+    <item>Administrative Assistant</item>
+    <item>Administrative Law Judge</item>
+    <item>Administrative Service Manager</item>
+    <item>Admiralty Lawyer</item>
+    <item>Adult Literacy and Remedial Education Teachers</item>
+    <item>Advertising Account Executive</item>
+    <item>Advertising Agency Coordinator</item>
+    <item>Aeronautical &amp; Aerospace Engineer</item>
+    <item>Aerospace Engineering Technician</item>
+    <item>Agricultural Crop Farm Manager</item>
+    <item>Agricultural Engineer</item>
+    <item>Agricultural Equipment Operator</item>
+    <item>Agricultural Inspector</item>
+    <item>Agricultural Product Sorter</item>
+    <item>Agricultural Sciences Professor</item>
+    <item>Agricultural Technician</item>
+    <item>Air Crew Member</item>
+    <item>Air Crew Officer</item>
+    <item>Air Traffic Controller</item>
+    <item>Aircraft Assembler</item>
+    <item>Aircraft Body and Bonded Structure Repairer</item>
+    <item>Aircraft Cargo Handling Supervisor</item>
+    <item>Aircraft Examiner</item>
+    <item>Aircraft Launch and Recovery Officer</item>
+    <item>Aircraft Launch and Recovery Specialist</item>
+    <item>Aircraft Mechanic</item>
+    <item>Airfield Operations Specialist</item>
+    <item>Airline Flight Attendant</item>
+    <item>Airline Flight Control Administrator</item>
+    <item>Airline Flight Operations Administrator</item>
+    <item>Airline Flight Reservations Administrator</item>
+    <item>Airport Administrator</item>
+    <item>Airport Design Engineer</item>
+    <item>Alcohol &amp; Drug Abuse Assistance Coordinator</item>
+    <item>Alumni Relations Coordinator</item>
+    <item>Ambulance Drivers</item>
+    <item>Amusement Park &amp; Recreation Attendants</item>
+    <item>Anesthesiologist (MD)</item>
+    <item>Animal Breeder</item>
+    <item>Animal Control Worker</item>
+    <item>Animal Husbandry Worker Supervisor</item>
+    <item>Animal Keepers and Groomers</item>
+    <item>Animal Kennel Supervisor</item>
+    <item>Animal Scientist</item>
+    <item>Animal Trainer</item>
+    <item>Animation Cartoonist</item>
+    <item>Answering Service Operator</item>
+    <item>Anthropology and Archeology Professor</item>
+    <item>Anti-Terrorism Intelligence Agent</item>
+    <item>Appeals Referee</item>
+    <item>Aquaculturist (Fish Farmer)</item>
+    <item>Aquarium Curator</item>
+    <item>Architecture Professor</item>
+    <item>Area, Ethnic, and Cultural Studies Professor</item>
+    <item>Armored Assault Vehicle Crew Member</item>
+    <item>Armored Assault Vehicle Officer</item>
+    <item>Art Appraiser</item>
+    <item>Art Director</item>
+    <item>Art Restorer</item>
+    <item>Art Therapist</item>
+    <item>Art, Drama, and Music Professor</item>
+    <item>Artillery and Missile Crew Member</item>
+    <item>Artillery and Missile Officer</item>
+    <item>Artists Agent (Manager)</item>
+    <item>Athletes\' Business Manager</item>
+    <item>Athletic Coach</item>
+    <item>Athletic Director</item>
+    <item>Athletic Trainer</item>
+    <item>ATM Machine Servicer</item>
+    <item>Atmospheric and Space Scientist</item>
+    <item>Audio-Visual Collections Specialist</item>
+    <item>Audiovisual Production Specialist</item>
+    <item>Automobile Mechanic</item>
+    <item>Automotive Body Repairer</item>
+    <item>Automotive Engineer</item>
+    <item>Automotive Glass Installer</item>
+    <item>Avionics Technician</item>
+    <item>Baggage Porters and Bellhops</item>
+    <item>Baker (Commercial)</item>
+    <item>Ballistics Expert</item>
+    <item>Bank and Branch Managers</item>
+    <item>Bank Examiner</item>
+    <item>Bank Teller</item>
+    <item>Benefits Manager</item>
+    <item>Bicycle Mechanic</item>
+    <item>Billing Specialist</item>
+    <item>Bindery Machine Set-Up Operators</item>
+    <item>Bindery Machine Tender</item>
+    <item>Biological Technician</item>
+    <item>Biology Professor</item>
+    <item>Biomedical Engineer</item>
+    <item>Biomedical Equipment Technician</item>
+    <item>Boat Builder</item>
+    <item>Book Editor</item>
+    <item>Border Patrol Agent</item>
+    <item>Brattice Builder</item>
+    <item>Bridge and Lock Tenders</item>
+    <item>Broadcast News Analyst</item>
+    <item>Broadcast Technician</item>
+    <item>Broker\'s Floor Representative</item>
+    <item>Brokerage Clerk</item>
+    <item>Budget Accountant</item>
+    <item>Budget Analyst</item>
+    <item>Building Inspector</item>
+    <item>Building Maintenance Mechanic</item>
+    <item>Bulldozer / Grader Operator</item>
+    <item>Bus and Truck Mechanics</item>
+    <item>Bus Boy / Bus Girl</item>
+    <item>Bus Driver (School)</item>
+    <item>Bus Driver (Transit)</item>
+    <item>Business Professor</item>
+    <item>Business Service Specialist</item>
+    <item>Cabinet Maker</item>
+    <item>Camp Director</item>
+    <item>Caption Writer</item>
+    <item>Cardiologist (MD)</item>
+    <item>Cardiopulmonary Technologist</item>
+    <item>Career Counselor</item>
+    <item>Cargo and Freight Agents</item>
+    <item>Carpenter\'s Assistant</item>
+    <item>Carpet Installer</item>
+    <item>Cartographer (Map Scientist)</item>
+    <item>Cartographic Technician</item>
+    <item>Cartoonist (Publications)</item>
+    <item>Casino Cage Worker</item>
+    <item>Casino Cashier</item>
+    <item>Casino Dealer</item>
+    <item>Casino Floor Person</item>
+    <item>Casino Manager</item>
+    <item>Casino Pit Boss</item>
+    <item>Casino Slot Machine Mechanic</item>
+    <item>Casino Surveillance Officer</item>
+    <item>Casting Director</item>
+    <item>Catering Administrator</item>
+    <item>Ceiling Tile Installer</item>
+    <item>Cement Mason</item>
+    <item>Ceramic Engineer</item>
+    <item>Certified Public Accountant (CPA)</item>
+    <item>Chaplain (Prison, Military, Hospital)</item>
+    <item>Chemical Engineer</item>
+    <item>Chemical Equipment Operator</item>
+    <item>Chemical Plant Operator</item>
+    <item>Chemical Technicians</item>
+    <item>Chemistry Professor</item>
+    <item>Chief Financial Officer</item>
+    <item>Child Care Center Administrator</item>
+    <item>Child Care Worker</item>
+    <item>Child Life Specialist</item>
+    <item>Child Support Investigator</item>
+    <item>Child Support Services Worker</item>
+    <item>City Planning Aide</item>
+    <item>Civil Drafter</item>
+    <item>Civil Engineer</item>
+    <item>Civil Engineering Technician</item>
+    <item>Clergy Member (Religious Leader)</item>
+    <item>Clinical Dietitian</item>
+    <item>Clinical Psychologist</item>
+    <item>Clinical Sociologist</item>
+    <item>Coatroom and Dressing Room Attendants</item>
+    <item>College/University Professor</item>
+    <item>Commercial Designer</item>
+    <item>Commercial Diver</item>
+    <item>Commercial Fisherman</item>
+    <item>Communication Equipment Mechanic</item>
+    <item>Communications Professor</item>
+    <item>Community Health Nurse</item>
+    <item>Community Organization Worker</item>
+    <item>Community Welfare Worker</item>
+    <item>Compensation Administrator</item>
+    <item>Compensation Specialist</item>
+    <item>Compliance Officer</item>
+    <item>Computer Aided Design (CAD) Technician</item>
+    <item>Computer and Information Scientists, Research</item>
+    <item>Computer and Information Systems Managers</item>
+    <item>Computer Applications Engineer</item>
+    <item>Computer Controlled Machine Tool Operators</item>
+    <item>Computer Customer Support Specialist</item>
+    <item>Computer Hardware Technician</item>
+    <item>Computer Operators</item>
+    <item>Computer Programmer</item>
+    <item>Computer Science Professor</item>
+    <item>Computer Security Specialist</item>
+    <item>Computer Software Engineers</item>
+    <item>Computer Software Technician</item>
+    <item>Computer Systems Engineer</item>
+    <item>Congressional Aide</item>
+    <item>Conservation Scientist</item>
+    <item>Construction Driller</item>
+    <item>Construction Laborer</item>
+    <item>Construction Manager</item>
+    <item>Construction Trades Supervisor</item>
+    <item>Contract Administrator</item>
+    <item>Contract Specialist</item>
+    <item>Control Center Specialist (Military)</item>
+    <item>Controller (Finance)</item>
+    <item>Cook (Cafeteria)</item>
+    <item>Cook (Fast Food)</item>
+    <item>Cook (Private Household)</item>
+    <item>Cook (Restaurant)</item>
+    <item>Cook (Short Order)</item>
+    <item>Copy Writer</item>
+    <item>Corporation Lawyer</item>
+    <item>Correction Officer</item>
+    <item>Correspondence Clerk</item>
+    <item>Cosmetologist (Hair Stylist)</item>
+    <item>Cost Accountant</item>
+    <item>Cost Analysis Engineer</item>
+    <item>Cost Estimator</item>
+    <item>Costume Attendant</item>
+    <item>Counseling Psychologist</item>
+    <item>Counter and Rental Clerks</item>
+    <item>County or City Auditor</item>
+    <item>Couriers and Messengers</item>
+    <item>Court Administrator</item>
+    <item>Court Clerk</item>
+    <item>Court Reporter</item>
+    <item>Craft Artist</item>
+    <item>Crane Operator</item>
+    <item>Credit Adjuster</item>
+    <item>Credit Analyst</item>
+    <item>Credit Reporter</item>
+    <item>Criminal Investigator (Detective)</item>
+    <item>Criminal Justice Professor</item>
+    <item>Criminal Lawyer</item>
+    <item>Crop Workers Supervisor</item>
+    <item>Crossing Guard</item>
+    <item>Custom Tailor</item>
+    <item>Customer Service Representative (Utilities)</item>
+    <item>Customer Service Supervisor</item>
+    <item>Customs Inspector</item>
+    <item>Cutting Machine Operators</item>
+    <item>Dairy Technologist</item>
+    <item>Database Administrator</item>
+    <item>Deaf Students Teacher</item>
+    <item>Delivery Driver</item>
+    <item>Demonstrators and Product Promoters</item>
+    <item>Dental / Orthodontic Office Administrator</item>
+    <item>Dental Assistant</item>
+    <item>Dental Hygienist</item>
+    <item>Dental Laboratory Technician</item>
+    <item>Dentist (MD)</item>
+    <item>Dermatologist (MD)</item>
+    <item>Desktop Publishing Specialist</item>
+    <item>Developmental Psychologist</item>
+    <item>Die Cutter Operator</item>
+    <item>Dietetic Technician</item>
+    <item>Dietitian and Nutritionist</item>
+    <item>Directory Assistance Operator</item>
+    <item>Disabled Students Teacher</item>
+    <item>Disk Jockey</item>
+    <item>Dispatcher (Safety Vehicles)</item>
+    <item>Door To Door Salesmen</item>
+    <item>Dry Wall Installer</item>
+    <item>Economics Professor</item>
+    <item>Editorial Writer, Newspapers &amp; Magazines</item>
+    <item>Education and Training Administrator</item>
+    <item>Education Professor</item>
+    <item>Educational Administrator</item>
+    <item>Educational Psychologist</item>
+    <item>Educational Resource Coordinator</item>
+    <item>Educational Therapist</item>
+    <item>EEG Technician/Technologist</item>
+    <item>Electric Meter Installer</item>
+    <item>Electric Motor Mechanic</item>
+    <item>Electrical and Electronic Inspector</item>
+    <item>Electrical Drafter</item>
+    <item>Electrical Engineers</item>
+    <item>Electrical Parts Reconditioner</item>
+    <item>Electrical Technician</item>
+    <item>Electro-Mechanical Technicians</item>
+    <item>Electromechanical Equipment Assembler</item>
+    <item>Electronic Drafter</item>
+    <item>Electronics Engineer</item>
+    <item>Electronics Technician</item>
+    <item>Elementary School Administrator</item>
+    <item>Elementary School Teacher</item>
+    <item>Elevator Mechanic</item>
+    <item>Emergency Management Specialist</item>
+    <item>Emergency Medical Technician</item>
+    <item>Employee Benefits Analyst</item>
+    <item>Employee Training Instructor</item>
+    <item>Employment Administrator</item>
+    <item>Employment and Placement Specialist</item>
+    <item>Employment Interviewer</item>
+    <item>Engine and Machine Assemblers</item>
+    <item>Engineering Managers</item>
+    <item>Engineering Professor</item>
+    <item>English Language and Literature Professor</item>
+    <item>Environmental Compliance Inspector</item>
+    <item>Environmental Disease Analyst</item>
+    <item>Environmental Engineer</item>
+    <item>Environmental Planner</item>
+    <item>Environmental Research Analyst</item>
+    <item>Environmental Science Technician</item>
+    <item>Environmental Science Professsor</item>
+    <item>Environmental Technician</item>
+    <item>Equal Opportunity Representative</item>
+    <item>Etchers and Engravers</item>
+    <item>Excavating Machine Operator</item>
+    <item>Excavating Supervisor</item>
+    <item>Executive Secretary</item>
+    <item>Exercise Physiologist</item>
+    <item>Exhibit Artist</item>
+    <item>Exhibit Designer</item>
+    <item>Experimental Psychologist</item>
+    <item>Explosives Worker</item>
+    <item>Export Agent</item>
+    <item>Fabric and Apparel Patternmakers</item>
+    <item>Facilities Planner</item>
+    <item>Factory Layout Engineer</item>
+    <item>Family Caseworker</item>
+    <item>Family Practitioner (MD)</item>
+    <item>Farm Equipment Mechanic</item>
+    <item>Farm Hand</item>
+    <item>Farm Labor Contractor</item>
+    <item>Farm Manager</item>
+    <item>Farm Products Purchasing Agent</item>
+    <item>Farmers and Ranchers</item>
+    <item>Fashion Artist</item>
+    <item>Fashion Coordinator</item>
+    <item>Fashion Designer</item>
+    <item>Fashion Model</item>
+    <item>Fence Installer</item>
+    <item>Field Contractor</item>
+    <item>Field Health Officer</item>
+    <item>File Clerk</item>
+    <item>Film Editor</item>
+    <item>Film Laboratory Technician</item>
+    <item>Finance Manager</item>
+    <item>Financial Aid Counselor</item>
+    <item>Financial Analyst</item>
+    <item>Financial Examiner</item>
+    <item>Financial Planner</item>
+    <item>Financial Services Sales Agent</item>
+    <item>Fine Artist</item>
+    <item>Fire Inspector</item>
+    <item>Fire Investigator</item>
+    <item>Fire Prevention Engineer</item>
+    <item>Fire Protection Engineer</item>
+    <item>Fire Protection Engineering Technician</item>
+    <item>Fish &amp; Game Warden</item>
+    <item>Fish Hatchery Specialist</item>
+    <item>Fishery Worker Supervisor</item>
+    <item>Fitness Trainer</item>
+    <item>Flight Engineers</item>
+    <item>Floral Designer</item>
+    <item>Food &amp; Drug Inspector</item>
+    <item>Food Batchmaker</item>
+    <item>Food Preparation Worker</item>
+    <item>Food Science Technicians</item>
+    <item>Food Technologist</item>
+    <item>Foreign Exchange Trader</item>
+    <item>Foreign Language Interpreter</item>
+    <item>Foreign Language Teacher</item>
+    <item>Foreign Language Translator</item>
+    <item>Foreign Service Officer</item>
+    <item>Foreign Service Peacekeeping Specialist</item>
+    <item>Foreign Student Adviser</item>
+    <item>Forensic Science Technicians</item>
+    <item>Forensics Psychologist</item>
+    <item>Forest and Conservation Technician</item>
+    <item>Forest Engineer</item>
+    <item>Forest Fire Prevention Supervisor</item>
+    <item>Forest Fire Inspector</item>
+    <item>Forestry and Conservation Professor</item>
+    <item>Forging Machine Operator</item>
+    <item>Forklift and Industrial Truck Operators</item>
+    <item>Fraud Investigator</item>
+    <item>Freight and Stock Handler</item>
+    <item>Fund Raiser</item>
+    <item>Funds Development Administrator</item>
+    <item>Funeral Attendant</item>
+    <item>Funeral Director</item>
+    <item>Furniture Designer</item>
+    <item>Furniture Finishers</item>
+    <item>Game Runner</item>
+    <item>Gas Plant Operator</item>
+    <item>General and Operations Managers</item>
+    <item>General Farmworkers</item>
+    <item>General Internists (MD)</item>
+    <item>Geography Professor</item>
+    <item>Geological Data Technicians</item>
+    <item>Geological Technician (Drafter)</item>
+    <item>Glass Blower</item>
+    <item>Gluing Machine Operators</item>
+    <item>Golf Course Superintendent</item>
+    <item>Government Budget Analyst</item>
+    <item>Government Property Inspectors</item>
+    <item>Government Service Executives</item>
+    <item>Graduate Teaching Assistant</item>
+    <item>Graphic Designer</item>
+    <item>Greenhouse and Nursery Manager</item>
+    <item>Gynecologist (MD)</item>
+    <item>Hand and Portable Tool Mechanic</item>
+    <item>Hand Sewer</item>
+    <item>Harbor Master</item>
+    <item>Harbor, Lake &amp; Waterways Police</item>
+    <item>Hardwood Floor Finisher</item>
+    <item>Hazardous Materials Removal Worker</item>
+    <item>Hazardous Waste Management Analyst</item>
+    <item>Health Care Facilities Inspector</item>
+    <item>Health Case Manager</item>
+    <item>Health Educators</item>
+    <item>Health Psychologist</item>
+    <item>Hearing Officer</item>
+    <item>Heating, A/C, Refrigeration Technician</item>
+    <item>Heavy Equipment Mechanic</item>
+    <item>High School Administrator</item>
+    <item>High School Guidance Counselor</item>
+    <item>High School Teacher</item>
+    <item>Highway Maintenance Worker</item>
+    <item>Highway Patrol Pilot</item>
+    <item>Historic Site Administrator</item>
+    <item>Historical Archivist</item>
+    <item>History Professor</item>
+    <item>Home Appliance Installer</item>
+    <item>Home Appliance Repairer</item>
+    <item>Home Economics Teacher</item>
+    <item>Home Economist</item>
+    <item>Home Entertainment System Installer</item>
+    <item>Home Health Aide</item>
+    <item>Home Health Technician</item>
+    <item>Horticultural Worker Supervisor</item>
+    <item>Horticulture Therapist</item>
+    <item>Horticulturist (Vineyard)</item>
+    <item>Hospital Administrator</item>
+    <item>Hospital Nurse</item>
+    <item>Hosts and Hostesses</item>
+    <item>Hotel and Motel Desk Clerks</item>
+    <item>Hotel Convention/Events Coordinator</item>
+    <item>Hotel Manager</item>
+    <item>Housekeeping Supervisors</item>
+    <item>Human Factors Psychologist</item>
+    <item>Human Resources Management Advisor</item>
+    <item>Human Resources Management Consultant</item>
+    <item>Hydraulic Engineer</item>
+    <item>Immigration Inspector</item>
+    <item>Industrial Air Pollution Analyst</item>
+    <item>Industrial Arts Teacher</item>
+    <item>Industrial Designer</item>
+    <item>Industrial Engineer</item>
+    <item>Industrial Engineering Technician</item>
+    <item>Industrial Health Engineer</item>
+    <item>Industrial Hygienist</item>
+    <item>Industrial Machinery Mechanics</item>
+    <item>Industrial Relations Analyst</item>
+    <item>Industrial Relations Specialist</item>
+    <item>Industrial Therapist</item>
+    <item>Industrial Waste Inspector</item>
+    <item>Industrial-Organizational Psychologist</item>
+    <item>Infantry Officers</item>
+    <item>Instructional Coordinators</item>
+    <item>Instructor, Police-Canine Services</item>
+    <item>Instrument Technician</item>
+    <item>Insulation Installer</item>
+    <item>Insurance Adjuster</item>
+    <item>Insurance Agent</item>
+    <item>Insurance Appraiser (Auto Damage)</item>
+    <item>Insurance Claim Examiner</item>
+    <item>Insurance Claims Adjuster</item>
+    <item>Insurance Claims Clerks</item>
+    <item>Insurance Estate Planner</item>
+    <item>Insurance Lawyer</item>
+    <item>Insurance Policy Processing Clerk</item>
+    <item>Insurance Underwriter</item>
+    <item>Intelligence Specialist (Government)</item>
+    <item>Interior Designer</item>
+    <item>Internal Auditor</item>
+    <item>Interpreter for the Hearing Impaired</item>
+    <item>Irradiated-Fuel Handlers</item>
+    <item>Irrigation Engineer</item>
+    <item>IT Administrator (Information Technology)</item>
+    <item>Janitorial Supervisors</item>
+    <item>Job Analyst</item>
+    <item>Job Development Specialist</item>
+    <item>Job Printer (Graphic Arts)</item>
+    <item>Kindergarten Teacher</item>
+    <item>Labor Relations Advisor</item>
+    <item>Laboratory Tester	Land Surveyor</item>
+    <item>Landscape Architect</item>
+    <item>Landscape Contractor</item>
+    <item>Lathe Operator</item>
+    <item>Law Clerks</item>
+    <item>Law Professor</item>
+    <item>Legal Assistant</item>
+    <item>Legal Secretary</item>
+    <item>Legislative Assistant</item>
+    <item>Library Assistant</item>
+    <item>Library Consultant</item>
+    <item>Library Science Professor</item>
+    <item>Library Technician</item>
+    <item>License Clerk</item>
+    <item>Licensed Practical Nurse (LPN)</item>
+    <item>Livestock Commission Agent</item>
+    <item>Loan Counselor</item>
+    <item>Loan Interviewers and Clerks</item>
+    <item>Loan Officer</item>
+    <item>Locomotive Engineers</item>
+    <item>Log Graders and Scalers</item>
+    <item>Logging Tractor Operator</item>
+    <item>Logging Worker Supervisor</item>
+    <item>Machine Feeders and Offbearers</item>
+    <item>Mail Clerk</item>
+    <item>Mail Machine Operators</item>
+    <item>Maintenance Supervisor</item>
+    <item>Makeup Artists - Theatrical</item>
+    <item>Management Consultant (Analyst)</item>
+    <item>Manicurists and Pedicurists</item>
+    <item>Manual Arts Therapist</item>
+    <item>Mapping Technician</item>
+    <item>Marina Boat Charter Administrator</item>
+    <item>Marine and Aquatic Biologist</item>
+    <item>Marine Architect</item>
+    <item>Marine Cargo Surveyor</item>
+    <item>Marine Drafter</item>
+    <item>Marine Engineer</item>
+    <item>Marine Surveyor</item>
+    <item>Marine/Port Engineer</item>
+    <item>Market Research Analyst</item>
+    <item>Marketing Managers</item>
+    <item>Marking Clerk</item>
+    <item>Marriage and Family Therapists</item>
+    <item>Massage Therapist</item>
+    <item>Materials Engineer</item>
+    <item>Materials Inspector</item>
+    <item>Materials Scientist</item>
+    <item>Math Professor</item>
+    <item>Mathematical Technician</item>
+    <item>Meat Packers</item>
+    <item>Meat, Poultry, and Fish Trimmers</item>
+    <item>Mechanical Drafter</item>
+    <item>Mechanical Engineer</item>
+    <item>Mechanical Engineering Technician</item>
+    <item>Mechanical Inspector</item>
+    <item>Medical Administrative Assistant</item>
+    <item>Medical and Public Health Social Workers</item>
+    <item>Medical and Scientific Illustrator</item>
+    <item>Medical Appliance Technician</item>
+    <item>Medical Assistant</item>
+    <item>Medical Equipment Preparer</item>
+    <item>Medical Examiner/Coroner</item>
+    <item>Medical Insurance Claims Analyst</item>
+    <item>Medical Laboratory Technician</item>
+    <item>Medical Photographer</item>
+    <item>Medical Records Administrator</item>
+    <item>Medical Records Technician</item>
+    <item>Medical Secretary</item>
+    <item>Medical Technologist</item>
+    <item>Medical Transcriptionist</item>
+    <item>Mental Health Counselor</item>
+    <item>Mentally Retarded Students Teacher</item>
+    <item>Merchandise Displayer</item>
+    <item>Metal Casting Machine Operator</item>
+    <item>Metal Fabricator</item>
+    <item>Meter Mechanic</item>
+    <item>Middle School Administrator</item>
+    <item>Middle School Guidance Counselor</item>
+    <item>Middle School Teacher</item>
+    <item>Military Analyst</item>
+    <item>Military Officer</item>
+    <item>Military-Enlisted Personnel</item>
+    <item>Mill Worker</item>
+    <item>Mine Cutting Machine Operator</item>
+    <item>Mine Inspector</item>
+    <item>Mining Engineer</item>
+    <item>Mining Machine Operator</item>
+    <item>Mining Shovel Machine Operator</item>
+    <item>Missing Person Investigator</item>
+    <item>Missionary Worker (Foreign Country)</item>
+    <item>Model Maker</item>
+    <item>Model Makers, Metal and Plastic</item>
+    <item>Motion Picture Director</item>
+    <item>Motion Picture Projectionist</item>
+    <item>Motor Vehicle Inspector</item>
+    <item>Motorboat Mechanic</item>
+    <item>Motorcycle Mechanic</item>
+    <item>Municipal Fire Fighting Supervisor</item>
+    <item>Museum Curator</item>
+    <item>Museum Technicians and Conservators</item>
+    <item>Music Arrangers and Orchestrators</item>
+    <item>Music Director</item>
+    <item>Music Teacher</item>
+    <item>Music Therapist</item>
+    <item>Musical Instrument Tuner</item>
+    <item>Narcotics Investigator (Government)</item>
+    <item>New Accounts Clerk (Banking)</item>
+    <item>Newspaper Editor</item>
+    <item>Newspaper/Magazines Writer</item>
+    <item>Non-Retail Sales Supervisor</item>
+    <item>Nuclear Engineer</item>
+    <item>Nuclear Equipment Operation Technician</item>
+    <item>Nuclear Fuels Research Engineer</item>
+    <item>Nuclear Medicine Technologist</item>
+    <item>Nuclear Monitoring Technician</item>
+    <item>Nuclear Power Reactor Operator</item>
+    <item>Nuclear Technicians</item>
+    <item>Numerical Tool Programmer</item>
+    <item>Nurse Practitioner</item>
+    <item>Nurse\'s Aide</item>
+    <item>Nursery Workers</item>
+    <item>Nursing Professor</item>
+    <item>Obstetrician (MD)</item>
+    <item>Occupational Analyst</item>
+    <item>Occupational Physician (MD)</item>
+    <item>Occupational Safety &amp; Health Inspector</item>
+    <item>Occupational Therapist</item>
+    <item>Occupational Therapy Assistant</item>
+    <item>Oceanographic Assistant</item>
+    <item>Office Clerk</item>
+    <item>Office Machine Mechanic</item>
+    <item>Office Supervisor</item>
+    <item>Offset Press Operators</item>
+    <item>Operating Engineers</item>
+    <item>Operations Management Analyst</item>
+    <item>Ophthalmic Laboratory Technician</item>
+    <item>Ophthalmologist (MD)</item>
+    <item>Oral and Maxillofacial Surgeons</item>
+    <item>Order Clerk</item>
+    <item>Order Fillers, Wholesale and Retail Sales</item>
+    <item>Ordinary Seamen</item>
+    <item>Ornamental-Metalwork Designer</item>
+    <item>Orthodontic Assistant</item>
+    <item>Orthodontic Laboratory Technician</item>
+    <item>Orthodontist (MD)</item>
+    <item>Outdoor Education Teacher</item>
+    <item>Overhead Door Installer</item>
+    <item>Package Designer</item>
+    <item>Packaging Machine Operator</item>
+    <item>Packers and Packagers, Hand</item>
+    <item>Painter (Industrial)</item>
+    <item>Painters, Construction and Maintenance</item>
+    <item>Painters, Transportation Equipment</item>
+    <item>Park Naturalist</item>
+    <item>Parking Enforcement Officer</item>
+    <item>Parking Lot Attendant</item>
+    <item>Parole Officer</item>
+    <item>Parts Salesperson</item>
+    <item>Paste-Up Worker (Graphic Arts)</item>
+    <item>Patent Agent</item>
+    <item>Patent Lawyer</item>
+    <item>Pathologist (MD)</item>
+    <item>Payroll and Timekeeping Clerks</item>
+    <item>PBX Installer and Repairer</item>
+    <item>Peace Corps Worker (Volunteer)</item>
+    <item>Pediatric Dentist</item>
+    <item>Pediatrician (MD)</item>
+    <item>Personal Service Supervisor</item>
+    <item>Personnel Administrator</item>
+    <item>Personnel Assistant</item>
+    <item>Personnel Recruiter</item>
+    <item>Pest Control Workers</item>
+    <item>Pesticide Handlers</item>
+    <item>Petroleum Engineer</item>
+    <item>Petroleum Geologist</item>
+    <item>Petroleum Laboratory Assistant</item>
+    <item>Petroleum Refinery Operator</item>
+    <item>Petroleum Technician</item>
+    <item>Pharmacy Aides</item>
+    <item>Pharmacy Technician</item>
+    <item>Philosophy and Religion Professor</item>
+    <item>Photo-Optics Technician</item>
+    <item>Photoengravers (Graphic Arts)</item>
+    <item>Photogrammetric Engineer</item>
+    <item>Photographic Equipment Mechanic</item>
+    <item>Photographic Process Workers</item>
+    <item>Physical Education Instructor</item>
+    <item>Physical Therapist</item>
+    <item>Physical Therapist Aides</item>
+    <item>Physical Therapy Assistant</item>
+    <item>Physician\'s Assistant (PA)</item>
+    <item>Physician\'s Office Nurse</item>
+    <item>Physics Professor</item>
+    <item>Pilot (Commercial Airlines)</item>
+    <item>Plant Breeder</item>
+    <item>Plant Manager (Manufacturing)</item>
+    <item>Plasterers and Stucco Masons</item>
+    <item>Plastic Surgeon</item>
+    <item>Platemakers (Graphic Arts)</item>
+    <item>Plumber (Plumbing Contractor)</item>
+    <item>Poets and Lyricists</item>
+    <item>Police and Detectives Supervisor</item>
+    <item>Police Artist</item>
+    <item>Police Identification and Records Officers</item>
+    <item>Police Officer</item>
+    <item>Political Science Professor</item>
+    <item>Political Scientist</item>
+    <item>Postal Service Clerks</item>
+    <item>Postal Service Mail Carriers</item>
+    <item>Postal Service Mail Sorter</item>
+    <item>Postmasters and Mail Superintendents</item>
+    <item>Power Plant Operators</item>
+    <item>Power-Line Installer and Mechanic</item>
+    <item>Precision Devices Inspectors and Testers</item>
+    <item>Preschool Administrator</item>
+    <item>Preschool Teacher</item>
+    <item>Pressing Machine Operator</item>
+    <item>Pressure Vessel Inspectors</item>
+    <item>Printing/Graphic Arts Reproduction Technician</item>
+    <item>Printmaker (Artist)</item>
+    <item>Private Detectives and Investigators</item>
+    <item>Private Nurse</item>
+    <item>Private Sector Executives</item>
+    <item>Probate Lawyer</item>
+    <item>Probation Officer</item>
+    <item>Procurement Clerks</item>
+    <item>Product Planner</item>
+    <item>Product Safety Engineer</item>
+    <item>Production Planner</item>
+    <item>Production, Planning, and Expediting Clerks</item>
+    <item>Professional Sports Scout</item>
+    <item>Proofreaders and Copy Markers</item>
+    <item>Property Accountant</item>
+    <item>Property Assessor</item>
+    <item>Property Managers</item>
+    <item>Props and Lighting Technicians</item>
+    <item>Prosthetic Technician</item>
+    <item>Psychiatric Aide</item>
+    <item>Psychiatric Technician</item>
+    <item>Psychiatrist (MD)</item>
+    <item>Psychology Professor</item>
+    <item>Public Health Service Officer</item>
+    <item>Public Relations Manager</item>
+    <item>Public Relations Specialist</item>
+    <item>Public Transportation Inspector</item>
+    <item>Publications Editor</item>
+    <item>Purchasing Agent</item>
+    <item>Purchasing Manager</item>
+    <item>Quality Control Coordinator</item>
+    <item>Quality Control Engineer</item>
+    <item>Quality Control Inspector</item>
+    <item>Quality Control Technician</item>
+    <item>Quarry Worker</item>
+    <item>Radar and Sonar Technicians</item>
+    <item>Radiation Protection Engineer</item>
+    <item>Radiation Therapists</item>
+    <item>Radio &amp; TV Announcer</item>
+    <item>Radio &amp; TV News Commentator</item>
+    <item>Radio &amp; TV Newscaster</item>
+    <item>Radio &amp; TV Producer</item>
+    <item>Radio &amp; TV Program Director</item>
+    <item>Radio &amp; TV Sports Announcer</item>
+    <item>Radio &amp; TV Station Administrator</item>
+    <item>Radio &amp; TV Talk Show Host</item>
+    <item>Radio Mechanics</item>
+    <item>Radio Operators</item>
+    <item>Radiologic Technicians</item>
+    <item>Radiologic Technologist</item>
+    <item>Radiologist (MD)</item>
+    <item>Rail Yard Engineers</item>
+    <item>Railroad Conductors and Yardmasters</item>
+    <item>Railroad Engineer</item>
+    <item>Railroad Inspector</item>
+    <item>Range Manager</item>
+    <item>Real Estate Appraiser</item>
+    <item>Real Estate Assessor</item>
+    <item>Real Estate Broker</item>
+    <item>Real Estate Lawyer</item>
+    <item>Real Estate Sales Agents</item>
+    <item>Recreation Leader</item>
+    <item>Recreational Protective Service Worker</item>
+    <item>Recreational Therapist</item>
+    <item>Recreational Vehicle Mechanic</item>
+    <item>Referee / Umpire</item>
+    <item>Refuse and Recyclable Material Collectors</item>
+    <item>Registrar Administrator</item>
+    <item>Reliability Engineer</item>
+    <item>Religious Institution Education Coordinator</item>
+    <item>Reservation Ticket Agent</item>
+    <item>Residence Counselor</item>
+    <item>Resource Recovery Engineer</item>
+    <item>Resource Teacher</item>
+    <item>Respiratory Care Technician</item>
+    <item>Respiratory Therapist</item>
+    <item>Respiratory Therapy Technicians</item>
+    <item>Restaurant Food Coordinator</item>
+    <item>Restaurant Manager</item>
+    <item>Retail Buyer</item>
+    <item>Retail Customer Service Representative</item>
+    <item>Retail Inventory Control Analyst</item>
+    <item>Retail Sales Department Supervisor</item>
+    <item>Retail Salespersons</item>
+    <item>Retail Store Manager</item>
+    <item>Revenue Agent (Government)</item>
+    <item>Safety Inspector</item>
+    <item>Sales Engineers</item>
+    <item>Sales Floor Stock Clerk</item>
+    <item>Sales Managers</item>
+    <item>Sales Promoter</item>
+    <item>Sales Representative (Aircraft)</item>
+    <item>Sales Representative (Chemicals &amp; Drugs)</item>
+    <item>Sales Representative (Computers)</item>
+    <item>Sales Representative (Graphic Arts)</item>
+    <item>Sales Representative (Hotel Furnishings)</item>
+    <item>Sales Representative (Medical Equipment)</item>
+    <item>Sales Representative (Printed Advertising)</item>
+    <item>Sales Representative (Radio &amp; TV Time)</item>
+    <item>Sales Representative (Telecommunications)</item>
+    <item>Sales Representative (Teleconferencing)</item>
+    <item>Sales Representative ( Education Programs)</item>
+    <item>Sales Representatives (Agricultural Products)</item>
+    <item>Sales Representatives (Instruments)</item>
+    <item>Sales Representatives (Mechanical Equipment)</item>
+    <item>Sales Representitive (Psychological Tests)</item>
+    <item>Sanitary Engineer</item>
+    <item>Sawing Machine Operator</item>
+    <item>Scanner Operators</item>
+    <item>School Nurse</item>
+    <item>School Plant Consultant</item>
+    <item>School Psychologist</item>
+    <item>Scientific Linguist</item>
+    <item>Scientific Photographer</item>
+    <item>Screen Printing Machine Operators</item>
+    <item>Screen Writer</item>
+    <item>Script Editor</item>
+    <item>Securities Broker</item>
+    <item>Security and Fire Alarm Systems Installers</item>
+    <item>Security Guard</item>
+    <item>Self-Enrichment Education Teachers</item>
+    <item>Septic Tank and Sewer Servicers</item>
+    <item>Service Station Attendants</item>
+    <item>Set Designer</item>
+    <item>Set Illustrator</item>
+    <item>Sewing Machine Operators</item>
+    <item>Sheet Metal Workers</item>
+    <item>Ship Carpenters and Joiners</item>
+    <item>Ship Engineers</item>
+    <item>Ship Master</item>
+    <item>Ship Mate</item>
+    <item>Ship Pilot</item>
+    <item>Shipping, Receiving, and Traffic Clerks</item>
+    <item>Shoe Machine Operators</item>
+    <item>Signal Switch Repairers</item>
+    <item>Skin Care Specialists</item>
+    <item>Small Engine Mechanics</item>
+    <item>Social and Community Service Managers</item>
+    <item>Social and Human Service Assistants</item>
+    <item>Social Psychologist</item>
+    <item>Social Science Research Assistants</item>
+    <item>Social Service Volunteer</item>
+    <item>Social Welfare Administrator</item>
+    <item>Social Work Professor</item>
+    <item>Social Worker</item>
+    <item>Sociology Professor</item>
+    <item>Soil Conservation Technician</item>
+    <item>Soil Conservationist</item>
+    <item>Soil Engineer</item>
+    <item>Soil Scientist</item>
+    <item>Solar Energy Systems Designer</item>
+    <item>Solid Waste Disposal Administrator</item>
+    <item>Sound Engineering Technicians</item>
+    <item>Special Education Administrator</item>
+    <item>Special Forces</item>
+    <item>Special Forces Officers</item>
+    <item>Speech Pathologist</item>
+    <item>Speech Writer</item>
+    <item>Sport Psychologist</item>
+    <item>Sport\'s/Entertainment Agent (Manager)</item>
+    <item>Sports Agent</item>
+    <item>Sports Events Business Manager</item>
+    <item>Sports Physician (Orthopedist)</item>
+    <item>Sportswriter (Journalist)</item>
+    <item>Stained Glass Artist</item>
+    <item>Standards Engineer</item>
+    <item>Statement Clerks</item>
+    <item>Stationary Engineers</item>
+    <item>Statistical Assistants</item>
+    <item>Steel Workers</item>
+    <item>Storage and Distribution Manager</item>
+    <item>Stress Analyst Engineer</item>
+    <item>Structural Drafter</item>
+    <item>Structural Engineer</item>
+    <item>Student Admissions Administrator</item>
+    <item>Student Affairs Administrator</item>
+    <item>Student Financial Aid Administrator</item>
+    <item>Substance Abuse Counselor</item>
+    <item>Subway and Streetcar Conductor</item>
+    <item>Surgeons (MD)</item>
+    <item>Surgical Technician/Technologist</item>
+    <item>Survey Researchers</item>
+    <item>Surveying Technicians</item>
+    <item>Switchboard Operator</item>
+    <item>Systems Accountant</item>
+    <item>Systems Analyst, Data Processing</item>
+    <item>Tax Accountant</item>
+    <item>Tax Auditor</item>
+    <item>Tax Collector</item>
+    <item>Tax Examiner</item>
+    <item>Tax Lawyer</item>
+    <item>Tax Preparer</item>
+    <item>Taxi Drivers and Chauffeurs</item>
+    <item>Teacher of the Blind</item>
+    <item>Teachers Aide</item>
+    <item>Team Assemblers</item>
+    <item>Technical &amp; Scientific Publications Editor</item>
+    <item>Technical Directors/Managers</item>
+    <item>Technical Illustrator</item>
+    <item>Technical Publications Writer</item>
+    <item>Technological Espionage Intelligence Agent</item>
+    <item>Telecommunications Line Installers and Repairers</item>
+    <item>Telecommunications Maintenance Worker</item>
+    <item>Telecommunications Technician</item>
+    <item>Telephone Station Installers</item>
+    <item>Textile Bleaching and Dyeing Machine Operators</item>
+    <item>Textile Cutting Machine Operators</item>
+    <item>Textile Designer</item>
+    <item>Tile and Marble Setters</item>
+    <item>Title Examiner</item>
+    <item>Title Searchers</item>
+    <item>Tool &amp; Machine Designer</item>
+    <item>Tool and Die Makers</item>
+    <item>Tool Grinders, Filers, and Sharpeners</item>
+    <item>Tour Guide</item>
+    <item>Town Clerk</item>
+    <item>Traffic Administrator (Freight &amp; Passenger)</item>
+    <item>Traffic Agent</item>
+    <item>Traffic Technicians</item>
+    <item>Transit and Railroad Police</item>
+    <item>Transportation Attendants</item>
+    <item>Transportation Systems Design Engineer</item>
+    <item>Travel Agent</item>
+    <item>Travel Clerks</item>
+    <item>Travel Counselor</item>
+    <item>Travel Writer (Journalist)</item>
+    <item>Treasurer (Corporate)</item>
+    <item>Treatment Plant Operators</item>
+    <item>Tree Trimmers and Pruners</item>
+    <item>Truck Driver, Light Duty</item>
+    <item>Truck Driver, Long Distance</item>
+    <item>Ultrasound Technologist</item>
+    <item>Unemployment Inspector</item>
+    <item>Urban and Regional Planner</item>
+    <item>Ushers and Lobby Attendants</item>
+    <item>Utility Meter Reader</item>
+    <item>Vending Machine Mechanic</item>
+    <item>Veterinarian (VMD)</item>
+    <item>Veterinarian Technician</item>
+    <item>Veterinary Assistant</item>
+    <item>Video Engineer</item>
+    <item>Vocational Education Instructors College</item>
+    <item>Vocational Education Teachers, High School</item>
+    <item>Vocational Education Teachers, Middle School</item>
+    <item>Vocational Rehabilitation Counselor</item>
+    <item>Voice Pathologist</item>
+    <item>Waiters and Waitresses</item>
+    <item>Warehouse Stock Clerk</item>
+    <item>Watch Repairers</item>
+    <item>Water Pollution Control Inspector</item>
+    <item>Weather Observer</item>
+    <item>Web Art Director</item>
+    <item>Weighers and Measurers</item>
+    <item>Welder (Gas, Arc, Plasma, Laser)</item>
+    <item>Welfare Eligibility Workers and Interviewers</item>
+    <item>Wholesale Buyers</item>
+    <item>Wildlife Biologist</item>
+    <item>Wildlife Control Agent</item>
+    <item>Windows - Draperies Treatment Specialist</item>
+    <item>Woodworking Machine Operators</item>
+    <item>Word Processing Specialist</item>
+    <item>Writer /Author</item>
+    <item>Zoo Veterinarian</item>
+    <item>Zoologist</item>
+    </string-array>
+</resources>

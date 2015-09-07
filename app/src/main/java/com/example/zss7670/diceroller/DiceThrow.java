@@ -1,7 +1,8 @@
 package com.example.zss7670.diceroller;
 
 /**
- * Created by FractalVagus on 9/4/2015.
+ * Created by zss7670 on 9/4/2015.
+ * Object for Dice throw information
  */
 public class DiceThrow {
     protected Integer mTotal = 0;
@@ -16,9 +17,4 @@ public class DiceThrow {
         }
     }
 
-    public DiceThrow(String subTitle, Integer diceResult){
-        mSubTitle = subTitle;
-        mDiceResults = new Integer[]{diceResult};
-        mTotal = diceResult;
-    }
 }

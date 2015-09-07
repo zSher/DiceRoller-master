@@ -10,8 +10,8 @@
         android:scrollbars="vertical"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
-        android:paddingRight="16dp"
-        android:paddingLeft="16dp"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
         android:layout_above="@+id/bottomBar"/>
 
     <RelativeLayout
@@ -25,18 +25,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/rollTxt"
+            android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:id="@+id/rollTxt"
-            android:textSize="30sp"
-            android:layout_marginRight="20dp"/>
+            android:textSize="@dimen/roll_font_size"
+            android:layout_marginEnd="@dimen/roll_margin_right"
+            android:layout_marginRight="@dimen/roll_margin_right"
+            android:textColor="@android:color/white"/>
 
         <Spinner
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/dieNumberSpinner"
+            android:layout_toEndOf="@id/rollTxt"
             android:layout_toRightOf="@id/rollTxt"
             android:layout_centerVertical="true"
+            android:textColor="@android:color/white"
             />
 
         <TextView
@@ -44,17 +49,22 @@
             android:layout_height="wrap_content"
             android:text="@string/dTxt"
             android:id="@+id/dTxt"
-            android:textSize="30sp"
+            android:textSize="@dimen/d_font_size"
             android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/dieNumberSpinner"
             android:layout_toRightOf="@id/dieNumberSpinner"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="@dimen/d_margin_right"
+            android:layout_marginRight="@dimen/d_margin_right"
+            android:layout_marginStart="@dimen/d_margin_left"
+            android:layout_marginLeft="@dimen/d_margin_left"
+            android:textColor="@android:color/white"
             />
 
         <Spinner
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/dieSideSpinner"
+            android:layout_toEndOf="@id/dTxt"
             android:layout_toRightOf="@id/dTxt"
             android:layout_centerVertical="true"
             />
@@ -63,6 +73,7 @@
             android:layout_height="wrap_content"
             android:text="@string/rollBtnText"
             android:id="@+id/rollBtn"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             />
